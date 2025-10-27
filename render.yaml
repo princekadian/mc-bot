@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: blendermc-ip-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: DISCORD_TOKEN
+        value: "MTQzMjM3MDk2NDg2NzU3OTkxMQ.GjkfBW.8ptfM6Rm5LLAan-qwzl5w8xZw5NvJyUMMGgNM8"
