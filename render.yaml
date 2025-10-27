@@ -7,4 +7,5 @@ services:
     startCommand: python bot.py
     envVars:
       - key: DISCORD_TOKEN
-        value: "MTQzMjM3MDk2NDg2NzU3OTkxMQ.GjkfBW.8ptfM6Rm5LLAan-qwzl5w8xZw5NvJyUMMGgNM8"
+
+        value: "MTQzMjM3MDk2NDg2NzU3OTkxMQ.GqnZfZ.jR27ZdBZKBc0g0KMx_i3a80ECopjCTpwM4x4rg"
